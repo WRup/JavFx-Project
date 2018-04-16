@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<Pane fx:id="singleArea" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="820.0" prefWidth="1270.0" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controllers.SingleAreaController">
+   <children>
+      <Button fx:id="button1" alignment="CENTER" layoutX="96.0" layoutY="166.0" mnemonicParsing="false" onAction="#openChosenTicket" prefHeight="84.0" prefWidth="150.0" style="-fx-background-color: #b2ddff; -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.6) , 5, 0.6 , 0 , 1 );" text="Normalny&#10;3.80 zł" textAlignment="CENTER">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Button>
+      <Button fx:id="button2" contentDisplay="CENTER" layoutX="97.0" layoutY="269.0" mnemonicParsing="false" onAction="#openChosenTicket" prefHeight="84.0" prefWidth="150.0" style="-fx-background-color: #b2ddff; -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.6) , 5, 0.6 , 0 , 1 );" text="Ulgowy&#10;1.90 zł">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Button>
+      <Button fx:id="button3" alignment="CENTER" layoutX="278.0" layoutY="166.0" mnemonicParsing="false" onAction="#openChosenTicket" prefHeight="84.0" prefWidth="150.0" style="-fx-background-color: #b2ddff; -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.6) , 5, 0.6 , 0 , 1 );" text="Normalny&#10;7.20 zł" textAlignment="CENTER">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Button>
+      <Button fx:id="button4" layoutX="278.0" layoutY="269.0" mnemonicParsing="false" onAction="#openChosenTicket" prefHeight="84.0" prefWidth="150.0" style="-fx-background-color: #b2ddff; -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.6) , 5, 0.6 , 0 , 1 );" text="Ulgowy&#10;3.60 zł" textAlignment="CENTER">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Button>
+      <Button fx:id="button5" layoutX="452.0" layoutY="166.0" mnemonicParsing="false" onAction="#openChosenTicket" prefHeight="84.0" prefWidth="150.0" style="-fx-background-color: #b2ddff; -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.6) , 5, 0.6 , 0 , 1 );" text="Normalny&#10;2.80 zł" textAlignment="CENTER">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Button>
+      <Button fx:id="button6" layoutX="452.0" layoutY="269.0" mnemonicParsing="false" onAction="#openChosenTicket" prefHeight="84.0" prefWidth="150.0" style="-fx-background-color: #b2ddff; -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.6) , 5, 0.6 , 0 , 1 );" text="Ulgowy&#10;1.40 zł" textAlignment="CENTER">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Button>
+      <Button fx:id="button7" layoutX="635.0" layoutY="166.0" mnemonicParsing="false" onAction="#openChosenTicket" prefHeight="84.0" prefWidth="150.0" style="-fx-background-color: #b2ddff; -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.6) , 5, 0.6 , 0 , 1 );" text="Normalny&#10;5.00 zł" textAlignment="CENTER">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Button>
+      <Button fx:id="button8" layoutX="635.0" layoutY="269.0" mnemonicParsing="false" onAction="#openChosenTicket" prefHeight="84.0" prefWidth="150.0" style="-fx-background-color: #b2ddff; -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.6) , 5, 0.6 , 0 , 1 );" text="Ulgowy&#10;2.50 zł" textAlignment="CENTER">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Button>
+      <Button fx:id="button9" layoutX="824.0" layoutY="166.0" mnemonicParsing="false" onAction="#openChosenTicket" prefHeight="84.0" prefWidth="150.0" style="-fx-background-color: #b2ddff; -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.6) , 5, 0.6 , 0 , 1 );" text="Normalny&#10;6.00 zł" textAlignment="CENTER">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Button>
+      <Button fx:id="button10" layoutX="824.0" layoutY="269.0" mnemonicParsing="false" onAction="#openChosenTicket" prefHeight="84.0" prefWidth="150.0" style="-fx-background-color: #b2ddff; -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.6) , 5, 0.6 , 0 , 1 );" text="Ulgowy&#10;3.00 zł" textAlignment="CENTER">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Button>
+      <Button fx:id="button11" layoutX="997.0" layoutY="166.0" mnemonicParsing="false" onAction="#openChosenTicket" prefHeight="84.0" prefWidth="150.0" style="-fx-background-color: #b2ddff; -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.6) , 5, 0.6 , 0 , 1 );" text="Normalny&#10;15.00 zł">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Button>
+      <Button fx:id="button12" layoutX="997.0" layoutY="269.0" mnemonicParsing="false" onAction="#openChosenTicket" prefHeight="84.0" prefWidth="150.0" style="-fx-background-color: #b2ddff; -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.6) , 5, 0.6 , 0 , 1 );" text="Ulgowy&#10;7.50 zł" textAlignment="CENTER">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Button>
+      <Button fx:id="button13" layoutX="96.0" layoutY="457.0" mnemonicParsing="false" onAction="#openChosenTicket" prefHeight="84.0" prefWidth="150.0" style="-fx-background-color: #b2ddff; -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.6) , 5, 0.6 , 0 , 1 );" text="Normalny&#10;24.00 zł" textAlignment="CENTER">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Button>
+      <Button fx:id="button14" layoutX="97.0" layoutY="558.0" mnemonicParsing="false" onAction="#openChosenTicket" prefHeight="84.0" prefWidth="150.0" style="-fx-background-color: #b2ddff; -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.6) , 5, 0.6 , 0 , 1 );" text="Ulgowy&#10;12.00 zł" textAlignment="CENTER">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Button>
+      <Button fx:id="button15" alignment="CENTER" layoutX="278.0" layoutY="457.0" mnemonicParsing="false" onAction="#openChosenTicket" prefHeight="84.0" prefWidth="150.0" style="-fx-background-color: #b2ddff; -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.6) , 5, 0.6 , 0 , 1 );" text="Normalny&#10;36.00 zł">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Button>
+      <Button fx:id="button16" layoutX="278.0" layoutY="558.0" mnemonicParsing="false" onAction="#openChosenTicket" prefHeight="84.0" prefWidth="150.0" style="-fx-background-color: #b2ddff; -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.6) , 5, 0.6 , 0 , 1 );" text="Ulgowy&#10;18.00 zł" textAlignment="CENTER">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Button>
+      <Button fx:id="button17" alignment="CENTER" layoutX="452.0" layoutY="457.0" mnemonicParsing="false" onAction="#openChosenTicket" prefHeight="84.0" prefWidth="150.0" style="-fx-background-color: #b2ddff; -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.6) , 5, 0.6 , 0 , 1 );" text="Normalny&#10;48.00 zł" textAlignment="CENTER">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Button>
+      <Button fx:id="button18" layoutX="452.0" layoutY="558.0" mnemonicParsing="false" onAction="#openChosenTicket" prefHeight="84.0" prefWidth="150.0" style="-fx-background-color: #b2ddff; -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.6) , 5, 0.6 , 0 , 1 );" text="Ulgowy&#10;24.00 zł" textAlignment="CENTER">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Button>
+      <Button fx:id="button19" layoutX="635.0" layoutY="457.0" mnemonicParsing="false" onAction="#openChosenTicket" prefHeight="84.0" prefWidth="150.0" style="-fx-background-color: #b2ddff; -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.6) , 5, 0.6 , 0 , 1 );" text="Normalny&#10;36.00 zł" textAlignment="CENTER">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Button>
+      <Button fx:id="button20" layoutX="635.0" layoutY="558.0" mnemonicParsing="false" onAction="#openChosenTicket" prefHeight="84.0" prefWidth="150.0" style="-fx-background-color: #b2ddff; -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.6) , 5, 0.6 , 0 , 1 );" text="Ulgowy&#10;18.00 zł" textAlignment="CENTER">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Button>
+      <Button fx:id="button21" alignment="CENTER" layoutX="824.0" layoutY="457.0" mnemonicParsing="false" onAction="#openChosenTicket" prefHeight="84.0" prefWidth="150.0" style="-fx-background-color: #b2ddff; -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.6) , 5, 0.6 , 0 , 1 );" text="Normalny&#10;16.00 zł" textAlignment="CENTER">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Button>
+      <TextArea fx:id="text1" editable="false" layoutX="97.0" layoutY="82.0" prefHeight="74.0" prefWidth="150.0" style="-fx-background-color: transparent;" text="    1-przejazdowy&#10;            lub&#10;         40-min.">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font></TextArea>
+      <TextArea fx:id="text2" editable="false" layoutX="278.0" layoutY="82.0" prefHeight="74.0" prefWidth="150.0" style="-fx-background-color: transparent;" text="    2-przejazdowy&#10;     dwukrotnego&#10;        kasowania">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font></TextArea>
+      <TextArea fx:id="text3" editable="false" layoutX="452.0" layoutY="82.0" prefHeight="74.0" prefWidth="150.0" style="-fx-background-color: transparent;" text="    &#10;     20-minutowy">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font></TextArea>
+      <TextArea fx:id="text4" editable="false" layoutX="635.0" layoutY="82.0" prefHeight="74.0" prefWidth="150.0" style="-fx-background-color: transparent;" text="    &#10;     60-minutowy">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font></TextArea>
+      <TextArea fx:id="text5" editable="false" layoutX="824.0" layoutY="82.0" prefHeight="74.0" prefWidth="150.0" style="-fx-background-color: transparent;" text="    &#10;     90-minutowy">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font></TextArea>
+      <TextArea fx:id="text6" editable="false" layoutX="997.0" layoutY="82.0" prefHeight="74.0" prefWidth="150.0" style="-fx-background-color: transparent;" text="    &#10;     24-godzinny">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font></TextArea>
+      <TextArea fx:id="text7" editable="false" layoutX="97.0" layoutY="373.0" prefHeight="74.0" prefWidth="150.0" style="-fx-background-color: transparent;" text="    &#10;     48-godzinny">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font></TextArea>
+      <TextArea fx:id="text8" editable="false" layoutX="278.0" layoutY="373.0" prefHeight="74.0" prefWidth="150.0" style="-fx-background-color: transparent;" text="    &#10;     72-godzinny">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font></TextArea>
+      <TextArea fx:id="text9" editable="false" layoutX="452.0" layoutY="373.0" prefHeight="74.0" prefWidth="150.0" style="-fx-background-color: transparent;" text="    &#10;        7-dniowy">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font></TextArea>
+      <TextArea fx:id="text10" editable="false" layoutX="635.0" layoutY="373.0" prefHeight="74.0" prefWidth="150.0" style="-fx-background-color: transparent;" text="    &#10;Grupowy do 20 os.">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font></TextArea>
+      <TextArea fx:id="text11" editable="false" layoutX="824.0" layoutY="373.0" prefHeight="74.0" prefWidth="150.0" style="-fx-background-color: transparent;" text="     Weekendowy&#10;&#9;Rodzinny">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font></TextArea>
+      <Button fx:id="backButton" layoutX="1007.0" layoutY="722.0" mnemonicParsing="false" onAction="#openLastScreen" prefHeight="84.0" prefWidth="226.0" style="-fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.6) , 5, 0.6 , 0 , 1 ); -fx-background-color: #fcf19c;" text="Poprzednia strona">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+         <font>
+            <Font size="24.0" />
+         </font></Button>
+      <Button fx:id="mainMenuButton" layoutX="21.0" layoutY="722.0" mnemonicParsing="false" onAction="#openMainMenu" prefHeight="84.0" prefWidth="226.0" style="-fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.6) , 5, 0.6 , 0 , 1 ); -fx-background-color: #fcf19c;" text="Menu Główne">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+         <font>
+            <Font size="24.0" />
+         </font></Button>
+      <Pane layoutX="-8.0" layoutY="652.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="59.0" prefWidth="1283.0" style="-fx-background-color: #46a5f2;">
+         <children>
+            <Text fill="RED" layoutX="451.0" layoutY="41.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Proszę wybrać rodzaj biletu..." textAlignment="CENTER">
+               <font>
+                  <Font size="29.0" />
+               </font>
+            </Text>
+         </children>
+      </Pane>
+      <Pane layoutX="-8.0" layoutY="-5.0" prefHeight="84.0" prefWidth="1283.0" style="-fx-background-color: #46a5f2;">
+         <children>
+            <Label fx:id="clockLabel" alignment="CENTER" layoutX="1107.0" layoutY="8.0" prefHeight="45.0" prefWidth="141.0" textAlignment="CENTER" textFill="WHITE">
+               <font>
+                  <Font name="Microsoft Himalaya" size="54.0" />
+               </font>
+            </Label>
+            <Label fx:id="dateLabel" alignment="CENTER" layoutX="164.0" layoutY="8.0" prefHeight="59.0" prefWidth="193.0" textAlignment="CENTER" textFill="WHITE">
+               <font>
+                  <Font name="Microsoft Himalaya" size="54.0" />
+               </font>
+            </Label>
+            <Label layoutX="14.0" prefHeight="84.0" prefWidth="167.0" text="Krakowska&#10;Karta&#10;Miejska&#10;" textFill="WHITE">
+               <font>
+                  <Font name="Gill Sans MT" size="22.0" />
+               </font>
+            </Label>
+         </children></Pane>
+   </children>
+</Pane>
